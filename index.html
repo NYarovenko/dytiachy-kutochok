@@ -402,7 +402,8 @@ function openCart() {
     }
     body.innerHTML = items +
       '<div class="cart-total">Разом: <span>' + total + ' грн</span></div>' +
-      '<button class="submit-btn" onclick="closeModal('cartModal');openOrder()">📋 Оформити замовлення</button>';
+      '<button class="submit-btn" onclick="closeModal(\'cartModal\');openOrder()">📋 Оформити замовлення</button>';
+
   }
   openModal('cartModal');
 }
